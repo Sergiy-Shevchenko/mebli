@@ -1,0 +1,12 @@
+[
+{"id": 1, "url": "", "title": "Кухня синя", "category": "kitchen", "description": "Кухня в сучасному стилі"},
+{"id": 2, "url": "", "title": "Диван кутовий", "category": "other", "description": "Диван"},
+{"id": 3, "url": "", "title": "Шафа купе", "category": "wardrobe", "description": "Шафа в сучасному стилі"},
+{"id": 4, "url": "", "title": "Кухня жовта", "category": "kitchen", "description": "Кухня в сучасному стилі"},
+{"id": 5, "url": "", "title": "Шафа гардероп", "category": "wardrobe", "description": "Шафа в сучасному стилі"},
+{"id": 6, "url": "", "title": "Полиця для книг", "category": "other", "description": "Полиця"},
+{"id": 7, "url": "", "title": "Кухня сіра", "category": "kitchen", "description": "Кухня в сучасному стилі"},
+{"id": 8, "url": "", "title": "Шафа винна", "category": "wardrobe", "description": "Шафа в сучасному стилі"},
+{"id": 9, "url": "", "title": "Кухня коричнева", "category": "kitchen", "description": "Кухня в сучасному стилі"}
+
+]

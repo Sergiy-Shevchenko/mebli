@@ -1,0 +1,12 @@
+[
+    {"id": 1, "img": "/phone-icon.png", "title": "phone", "url": "tel:+380960051155"},
+    {"id": 2, "img": "/viber-icon.png", "title": "viber", "url": "viber://chat?number=%2B380960051155"},
+    {"id": 3, "img": "/telegram-icon.png", "title": "telegram", "url": "https://t.me/simonova_notary"},
+    {"id": 4, "img": "/whatsapp-icon.png", "title": "whatsapp", "url": "https://wa.me/380960051155"},
+    {"id": 5, "img": "/mail-icon.png", "title": "email", "url": "mailto:simonova.w78@ukr.net"}
+]
+
+
+
+          
+          

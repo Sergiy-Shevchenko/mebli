@@ -1,0 +1,11 @@
+
+[
+    {"id": 1, "url": "/kitchen.png", "title": "КУХНІ"},
+    {"id": 2, "url": "/wardrobe.jpg", "title": "ШАФИ"},
+    {"id": 3, "url": "/prikhozhaya.jpg", "title": "ПЕРЕДПОКОЇ"},
+    {"id": 4, "url": "/bedroom.jpg", "title": "СПАЛЬНІ"},
+    {"id": 5, "url": "/kids-bedroom.jpg", "title": "ДИТЯЧІ"},
+    {"id": 6, "url": "/living-room.jpg", "title": "ВІТАЛЬНІ"},
+    {"id": 7, "url": "/stady.jpg", "title": "ДЛЯ НАВЧАННЯ / РОБОТИ"},
+    {"id": 8, "url": "/reception.jpg", "title": "ДЛЯ КОМЕРЦІЇ"}    
+    ]

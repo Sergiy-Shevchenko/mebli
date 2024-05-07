@@ -1,0 +1,78 @@
+.section {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.container {
+    display: flex;
+    max-width: 1400px;
+    margin:0 auto ;
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 15px 0 auto;
+}
+
+.navigation a {
+  display: block;
+  margin: auto 25px;
+}
+
+.link_text {
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.active .link_text {
+  color: rgb(13, 148, 251);
+}
+
+.logo {
+    display: flex;
+    margin-left: 15px;
+}
+
+.icon_out {
+  display: block;
+  margin: 15px 5px;
+  width: 80px;
+  height: 80px;
+  fill: aliceblue;
+  filter: invert(1);
+
+  animation-name: spin;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.logo_letter {
+  position: relative;
+  left: -70px;
+  font-size: 38px;
+  font-weight: 700;
+  color: aliceblue;
+  margin: auto 10px;
+}
+.logo_text {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: aliceblue;
+  text-align: center;
+  margin: auto -40px;
+}
