@@ -30,19 +30,21 @@
     /* text-transform: uppercase; */
     /* text-rendering: optimizeLegibility; */
  color: azure;
+
     letter-spacing: .15em;
-    /* text-shadow: 
-      -1px -1px 1px #efede3, 
-      0px 5px 0 #262626, 
-      0px 6px 0 #242424, 
-      0px 5px 0 #1c1c1c, 
-      0px 6px 0 #1a1a1a, 
-      0px 6px 0 #181818, 
-      0px 5px 0 #121212,
-      2px 6px 5px rgba(0, 0, 0, 0.9),
-      5px 13px 5px rgba(0, 0, 0, 0.3),
-      8px 7px 8px rgba(0, 0, 0, 0.5),
-      8px 8px 35px rgba(0, 0, 0, 0.9); */
+    color: rgb(13, 148, 251, 0.3);
+    text-shadow: 
+     -1px -1px 1px #efede3, 
+     0px 5px 0 #262626, 
+     0px 6px 0 #242424, 
+     0px 5px 0 #1c1c1c, 
+     0px 6px 0 #1a1a1a, 
+     0px 6px 0 #181818, 
+     0px 5px 0 #121212,
+     2px 6px 5px rgba(0, 0, 0, 0.9),
+     5px 13px 5px rgba(0, 0, 0, 0.3),
+     8px 7px 8px rgba(0, 0, 0, 0.5),
+     8px 8px 35px rgba(0, 0, 0, 0.9);
 
 
 }

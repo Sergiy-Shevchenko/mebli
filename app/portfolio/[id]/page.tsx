@@ -2,7 +2,6 @@ import Posts from "../portfol.json";
 
 function getData(id: string) {
   let idNum = Number(`${id}`);
-
   let postEl = Posts.find((post) => post.id === idNum);
 
   return postEl;

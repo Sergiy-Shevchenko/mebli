@@ -8,7 +8,7 @@ export default function Servise() {
   return (
     <div className={styles.section}>
       <div className={styles.container}>
-        <h3 className={styles.text}>За індивідуальними розмірами</h3>
+        <h3 className={styles.text}>Індивідуальні рішення для кожного клієнта</h3>
       </div>
         <div className={styles.servise_container}>
             <ul className={styles.servise_list}>

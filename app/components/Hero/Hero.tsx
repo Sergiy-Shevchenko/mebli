@@ -1,37 +1,33 @@
-import Link from "next/link";
-
+"use client";
 
 import styles from "./hero.module.css";
 
+export interface props {
+  isOpen?: any;
+}
 
-
-
-export default function Hero() {
-  
+export default function Hero({ isOpen }: props) {
   return (
     <div className={styles.section}>
       <div className={styles.container}>
-        <div className={styles.text_section}>
-        <h1 className={styles.title}>
-            Виготовлення меблів на замовлення
-          </h1>
-          {/* <h3 className={styles.text}>
-            Втілення Ваших мрій в практичну реальність
-          </h3> */}
-        </div>
-
         <div className={styles.image}>
-          {/* <h1 className={styles.title}>
-            Виготовлення меблів на замовлення
-          </h1> */}
-         
-          <Link href="#contact" className={styles.link}>
-            Замовити
-          </Link>
+          <div className={styles.text_section}>
+            <h1 className={styles.title}>Меблі на замовлення</h1>
+            <h3 className={styles.text}>
+              Втілення Ваших мрій в практичну реальність
+            </h3>
+          </div>
         </div>
-        {/* <Image src={Kitchen} alt="#" max-width={1400} className={styles.image}/> */}
+        <button
+          type="button"
+          onClick={() => {
+            isOpen();
+          }}
+          className={styles.button}
+        >
+          Замовити
+        </button>
       </div>
-     </div>
+    </div>
   );
 }
-  
