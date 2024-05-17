@@ -13,7 +13,7 @@ export default function Advantages() {
       <div className={styles.container}>
         <h3 className={styles.title}>Меблеве виробництво в Києві</h3>
         <p className={styles.text}>
-          Ми гарантуємо високу якість меблів за цінами виробника
+          Гарантуємо високу якість меблів за цінами виробника
         </p>
         <ul className={styles.servise_list}>
           <li className={styles.servise_item}>
