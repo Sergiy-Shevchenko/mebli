@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <div id="contact" className={styles.section}>
+    <div className={styles.section}>
       <div className={styles.contacts_container}>
         <ul className={styles.contact_list}>
           {Contacts.map((el) => (

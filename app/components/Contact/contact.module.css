@@ -1,6 +1,14 @@
 .contact_list {
-    display: flex;
+  margin: 0 auto;
+  padding-bottom: 20px;
+ display: flex;
     width: 300px;
+
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 0;
+    }
+   
+  
 }
 
 .contact_list {

@@ -63,7 +63,7 @@ text-shadow:
      8px 7px 8px rgba(0, 0, 0, 0.5),
      8px 8px 35px rgba(0, 0, 0, 0.9);
  letter-spacing: .15em;
-
+ /* line-height: 30px;  */
 
 @media screen and (min-width: 1200px){
     font-size: 50px;
@@ -114,13 +114,13 @@ text-shadow:
 
 .button {
     display: block;
-    font-size: 18px;
+    font-size: 20px;
     width: fit-content;
    font-weight: 500;
     background-color: rgb(13, 148, 251);
     color: aliceblue;
     padding: 10px 25px;
-    margin: -50px auto 20px auto;
+    margin: -55px auto 20px auto;
     border-radius: 7px;
     border: none;
     border-width: 0;

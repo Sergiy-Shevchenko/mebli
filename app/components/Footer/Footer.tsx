@@ -5,7 +5,7 @@ import Contact from "../Contact/Contact";
 
 export default function Footer() {
   return (
-    <footer id="footer" className={styles.section}>
+    <footer className={styles.section}>
       <div className={styles.container}>
         <div className={styles.logo}>
           <Image src={Logo} alt="#" width={300} className={styles.icon_out} />
