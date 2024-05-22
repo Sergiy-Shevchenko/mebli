@@ -59,10 +59,10 @@ max-height: 450px;
    
 }
 
-/* .text_box {
+.text_box {
    
- margin: 50px auto;
-} */
+ margin: auto;
+}
 
 .text {
         font-size: 24px;
@@ -80,9 +80,11 @@ margin: 30px auto;
 }
 
 .text:last-child {
-
-    @media screen and (min-width:1200px) {
+    @media screen and (min-width:768px) {
+        padding: 20px 20px;
+   }
+    /* @media screen and (min-width:1200px) {
          padding-top: 20px;
-    }
+    } */
    
 }

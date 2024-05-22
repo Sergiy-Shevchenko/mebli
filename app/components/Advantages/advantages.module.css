@@ -4,7 +4,7 @@
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   height: max-content;
   background: linear-gradient(rgba(47, 48, 58, 0.6), rgba(47, 48, 58, 0.7)),
     url(../../../public/advantages.jpg);
@@ -22,12 +22,13 @@
 
 .title {
   display: block;
-  font-size: 24px;
+  font-size: 22px;
   width: fit-content;
   text-align: center;
   font-weight: 500;
   letter-spacing: 0.1em;
   margin: 15px auto;
+  padding: 8px;
 
   color: rgb(13, 148, 251, 0.3);
   color: rgba(240, 255, 255, 0.66);
@@ -36,7 +37,16 @@
     2px 6px 5px rgba(0, 0, 0, 0.9), 5px 13px 5px rgba(0, 0, 0, 0.3),
     8px 7px 8px rgba(0, 0, 0, 0.5), 8px 8px 35px rgba(0, 0, 0, 0.9);
 
-  @media screen and (min-width:1200px) {
+    @media screen and (min-width: 768px) {
+      padding-top: 50px;
+      line-height: 100px;
+      font-size: 28px;
+      letter-spacing: 0.15em;
+      margin: 0 auto 0 auto;
+    }
+
+
+  @media screen and (min-width: 1200px) {
     padding-top: 100px;
     line-height: 100px;
     font-size: 34px;
@@ -48,10 +58,11 @@
 .text {
   display: block;
   width: fit-content;
+  font-size: 20px;
   margin: 15px auto;
   letter-spacing: 0.1em;
   text-align: center;
-
+  padding: 8px;
   color: rgb(13, 148, 251, 0.3);
   color: rgba(240, 255, 255, 0.66);
   text-shadow: -1px -1px 1px #efede3, 0px 5px 0 #262626, 0px 6px 0 #242424,
@@ -59,7 +70,14 @@
     2px 6px 5px rgba(0, 0, 0, 0.9), 5px 13px 5px rgba(0, 0, 0, 0.3),
     8px 7px 8px rgba(0, 0, 0, 0.5), 8px 8px 35px rgba(0, 0, 0, 0.9);
 
-  @media screen and (min-width:1200px) {
+    @media screen and (min-width: 768px) {
+      line-height: 50px;
+      font-size: 24px;
+      letter-spacing: 0.15em;
+      margin: 0 auto 0 auto;
+    }
+
+  @media screen and (min-width: 1200px) {
     line-height: 250px;
     font-size: 28px;
     letter-spacing: 0.15em;
@@ -70,11 +88,11 @@
 .servise_list {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
- justify-content: space-around;
- padding-bottom: 25px;
- 
- @media screen and (min-width:1200px) {
+  gap: 15px;
+  justify-content: center;
+  padding-bottom: 25px;
+
+  @media screen and (min-width: 1200px) {
     justify-content: space-around;
     padding-bottom: 100px;
   }
@@ -83,12 +101,16 @@
 .servise_item {
   display: block;
   width: calc(100% / 2 - 30px);
- 
+
   list-style-type: none;
   border: 1px solid #fff;
   border-radius: 5px;
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 4 - 60px);
+    margin: 10px;
+  }
 
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     width: calc(100% / 4 - 80px);
   }
 }

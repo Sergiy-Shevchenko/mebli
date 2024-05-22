@@ -5,7 +5,7 @@
 }
 
 .title {
-
+/* 
 font-size: 20px;
 
     letter-spacing: .1em;
@@ -33,13 +33,53 @@ font-size: 20px;
         line-height: 100px;
     font-weight: 500;
     letter-spacing: .15em;
+         } */
+
+
+
+         width: fit-content;
+         margin: 0 auto;
+         font-size: 20px;
+         text-align: center;
+         font-weight: 500;
+         letter-spacing: .1em;
+         color: rgb(13, 148, 251, 0.3);
+         color: azure;
+     
+     
+         @media screen and (min-width: 768px) {
+             font-size: 28px;
+            
          }
+     
+         @media screen and (min-width: 1200px) {
+               font-size: 32px;
+               line-height: 100px;
+                
+     
+             text-shadow:
+          -1px -1px 1px #efede3, 
+          0px 5px 0 #262626, 
+          0px 6px 0 #242424, 
+          0px 5px 0 #1c1c1c, 
+          0px 6px 0 #1a1a1a, 
+          0px 6px 0 #181818, 
+          0px 5px 0 #121212,
+          2px 6px 5px rgba(0, 0, 0, 0.9),
+          5px 13px 5px rgba(0, 0, 0, 0.3),
+          8px 7px 8px rgba(0, 0, 0, 0.5),
+          8px 8px 35px rgba(0, 0, 0, 0.9);
+         }
+
+
+
+
     }
 
 .servise_list {
     justify-content: center;
-    padding-bottom: 30px;
-    @media screen and (min-width:1200px) {
+    padding: 30px 0;
+    @media screen and (min-width:768px) {
         display: flex;
  justify-content: space-around;
  padding-bottom: 50px;
@@ -57,6 +97,12 @@ font-size: 20px;
    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3), 0px 4px 4px rgba(0, 0, 0, 0.4),
     1px 4px 6px rgba(0, 0, 0, 0.4);
  
+    @media screen and (min-width: 768px) {
+        width: calc(100% / 2 - 40px);
+        margin: 10px;
+       }
+
+
  @media screen and (min-width:1200px) {
          width: calc(100% / 2 - 80px);
     margin: 15px;
