@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Sample from './example.json'
 
 
@@ -14,8 +15,9 @@ export default function Servise() {
             <ul className={styles.servise_list}>
           {Sample.map((el) => (
             <li key={el.id} className={styles.servise_item}>
+              <Link href="/portfolio">
               <Image src={el.url} alt='icon' width={300} height={300} className={styles.img}/>
-              <p className={styles.item_title}>{el.title}</p>
+              <p className={styles.item_title}>{el.title}</p></Link>
             </li>
           ))}
         </ul>
