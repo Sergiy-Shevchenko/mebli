@@ -8,15 +8,9 @@
         padding-top: 0;
     }
 
-    /* @media screen and (min-width: 1200px) {
-        padding-bottom: 0;
-    } */
-   
-  
 }
 
 .contact_list {
-    /* gap: 10px; */
     justify-content: space-between;
 }
 
