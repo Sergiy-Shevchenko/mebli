@@ -5,7 +5,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 10px;
+        gap: 15px;
         margin: 50px auto;
         }   
     
@@ -29,6 +29,8 @@
     @media screen and (min-width:768px) {
         width: calc(100% / 3 - 20px);
         max-width: 500px;
+        height: 280px;
+        /* max-height: 430px; */
         margin: 0;
    }   
 
@@ -55,13 +57,12 @@ border-radius: 3px;
 
     @media screen and (min-width: 1200px) {
         width: calc(100% - 20px);
-        margin: 10px auto;
-        height: 200px;
+        height: 230px;
+        padding-top: 0;
     }    
 }
 
 .title {
-
     width: fit-content;
     font-size: 18px;
     font-weight: 700;
@@ -70,4 +71,7 @@ border-radius: 3px;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.8);
     color: azure;
+    @media screen and (min-width: 768px) {
+        padding-bottom: 0;
+    }
 }
