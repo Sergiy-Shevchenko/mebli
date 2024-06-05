@@ -1,0 +1,48 @@
+
+
+.container {
+    display: block;
+    width: 1200px;
+   max-width: 1400px;
+   justify-content: center;
+   margin: 0 auto 50px auto; 
+}
+
+.container p,
+.container h4{
+    letter-spacing: .05em;
+    color: rgb(216, 219, 219);
+    font-weight: 700;
+}
+
+.container h4 {
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: .1em;
+    text-shadow: 
+     -1px -1px 1px #efede3, 
+     0px 5px 0 #262626, 
+     0px 6px 0 #242424, 
+     0px 5px 0 #1c1c1c, 
+     0px 6px 0 #1a1a1a, 
+     0px 6px 0 #181818, 
+     0px 5px 0 #121212,
+     2px 6px 5px rgba(0, 0, 0, 0.9),
+     5px 13px 5px rgba(0, 0, 0, 0.3),
+     8px 7px 8px rgba(0, 0, 0, 0.5),
+     8px 8px 35px rgba(0, 0, 0, 0.9);
+}
+
+.container p{
+    font-size: 18px;
+}
+
+.text_containet {
+    display: block;
+    width: 1200px;
+    margin: 30px auto 50px auto;
+}
+
+.furniture {
+    margin: 10px 0 20px 0;
+}

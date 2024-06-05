@@ -1,6 +1,20 @@
 [
-{"id": 1, "url": "", "title": "Кухня синя", "category": "kitchen", "description": "Кухня в сучасному стилі"},
-{"id": 2, "url": "", "title": "Диван кутовий", "category": "other", "description": "Диван"},
+{"id": 1, "images": [
+{"id":1, "img": "/id1/1.jpg"},
+{"id":2, "img": "/id1/2.jpg"},
+{"id":3, "img": "/id1/3.jpg"},
+{"id":4, "img": "/id1/4.jpg"}
+], "title": "Кухня синя",  "url": "/id1/1.jpg", "category": "kitchen", "description": "Кухня в сучасному стилі",
+"material": "МДФ",
+"furniture": "Bloom"
+},
+{"id": 2, "images": [
+    {"id":1, "img": "/id1/1.jpg"},
+    {"id":2, "img": "/id1/2.jpg"},
+    {"id":3, "img": "/id1/3.jpg"},
+    {"id":4, "img": "/id1/4.jpg"}
+    ], "title": "Диван кутовий", "url": "/id1/1.jpg", "category": "other", "description": "Диван", "material": "МДФ",
+    "furniture": "Bloom"},
 {"id": 3, "url": "", "title": "Шафа купе", "category": "wardrobe", "description": "Шафа в сучасному стилі"},
 {"id": 4, "url": "", "title": "Кухня жовта", "category": "kitchen", "description": "Кухня в сучасному стилі"},
 {"id": 5, "url": "", "title": "Шафа гардероп", "category": "wardrobe", "description": "Шафа в сучасному стилі"},

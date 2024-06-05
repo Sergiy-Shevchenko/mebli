@@ -4,11 +4,15 @@ import { usePathname } from "next/navigation";
 
 import Link from "next/link";
 import styles from "./header.module.css";
-import Image from "next/image";
-// import Logo from "../../../public/logo.png";
+
 import Logo from "../Logo/Logo";
+
+
+
 export default function Header() {
   const pahtname = usePathname();
+  // const el = getData(id);
+
   return (
     <header className={styles.section}>
       <div className={styles.container}>
@@ -22,7 +26,7 @@ export default function Header() {
           </Link>
           <Link
             href="/portfolio"
-            className={pahtname === "/portfolio" ? styles.active : ""}
+            className={pahtname === "/portfolio"  ? styles.active : ""}
           >
             <p className={styles.link_text}>Наші роботи</p>
           </Link>

@@ -1,4 +1,3 @@
-import Card from "../components/CardList/CardList";
 
 import { Metadata } from "next";
 import Posts from './portfol.json'
@@ -20,13 +19,12 @@ export default function Portfolio() {
         {Posts.map((post: any) => (
             <li key={post.id} className={styles.item}>
               <Link className={styles.link} href={`/portfolio/${post.id}`}>
-                <Image className={styles.img} src={post.url ? post.url : defdaultImage} alt="image" width={0}/>
+                <Image className={styles.img} src={post.url ? post.url : defdaultImage} alt="image" width={0} height={0} priority={true}/>
                 <p className={styles.title}>{post.title}</p>
                 </Link>
                 </li>
         ))}
-      </ul>
-     
+      </ul>     
       </div>
     );
   }
