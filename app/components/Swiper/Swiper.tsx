@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper-bundle.css";
@@ -13,20 +13,19 @@ export interface props {
 export default function Slide({ slides }: props) {
   return (
     <Swiper
-    modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
-      // scrollbar={{ draggable: true }}
-      onSlideChange={() => console.log("slide change")}
-      onSwiper={(swiper) => console.log(swiper)}
-    >
+      >
       {slides.map((el: any) => (
-        <SwiperSlide key={el.id}
-        style={{
-          height: 'unset',
-        }}>
+        <SwiperSlide
+          key={el.id}
+          style={{
+            height: "unset",
+          }}
+        >
           <Image
             src={el.img}
             alt="img"

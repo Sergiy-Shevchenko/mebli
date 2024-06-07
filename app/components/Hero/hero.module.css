@@ -1,161 +1,133 @@
-/* .section {
-    background-color: rgb(198, 198, 198);
-} */
-
 .container {
-    width: 100%;
-    height: 30%;
-    margin: 20px auto;
+  width: 100%;
+  height: 30%;
+  margin: 20px auto;
 
-    @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     max-width: 1600px;
-    margin:50px auto;
-    }
-    
+    margin: 50px auto;
+  }
 }
 
 .image {
-position: relative;
-width: 100%;
-height: max-content;
+  position: relative;
+  width: 100%;
+  height: max-content;
   justify-content: center;
-background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.5)),
-    url('../../../public/Kitchen.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    z-index: -1;
-    overflow: auto;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.5)),
+    url("../../../public/Kitchen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  z-index: -1;
+  overflow: auto;
 
-@media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     min-width: 1200px;
     max-width: 1600px;
     min-height: 600px;
     max-height: 650px;
-} 
-    
+  }
 }
 
 .title {
-    font-size: 22px;
-    color: aliceblue;
-    text-transform: uppercase;
-    text-rendering: optimizeLegibility;
-    display: block;
-    width: fit-content;
-    text-align: center;
-    margin: 0 auto 0 auto;
-    color: rgb(13, 148, 251, 0.3);
-    color: azure;
+  font-size: 22px;
+  color: aliceblue;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  display: block;
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  color: rgb(13, 148, 251, 0.3);
+  color: azure;
 
-text-shadow: 
-     -1px -1px 1px #efede3, 
-     0px 5px 0 #262626, 
-     0px 6px 0 #242424, 
-     0px 5px 0 #1c1c1c, 
-     0px 6px 0 #1a1a1a, 
-     0px 6px 0 #181818, 
-     0px 5px 0 #121212,
-     2px 6px 5px rgba(0, 0, 0, 0.9),
-     5px 13px 5px rgba(0, 0, 0, 0.3),
-     8px 7px 8px rgba(0, 0, 0, 0.5),
-     8px 8px 35px rgba(0, 0, 0, 0.9);
- letter-spacing: .15em;
- /* line-height: 30px;  */
+  text-shadow: -1px -1px 1px #efede3, 0px 5px 0 #262626, 0px 6px 0 #242424,
+    0px 5px 0 #1c1c1c, 0px 6px 0 #1a1a1a, 0px 6px 0 #181818, 0px 5px 0 #121212,
+    2px 6px 5px rgba(0, 0, 0, 0.9), 5px 13px 5px rgba(0, 0, 0, 0.3),
+    8px 7px 8px rgba(0, 0, 0, 0.5), 8px 8px 35px rgba(0, 0, 0, 0.9);
+  letter-spacing: 0.15em;
 
- @media screen and (min-width: 768px){
+  @media screen and (min-width: 768px) {
     font-size: 44px;
-    line-height: 130px;  
-}   
+    line-height: 130px;
+  }
 
-
-@media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     font-size: 72px;
-    line-height: 200px;  
-}   
-} 
-
+    line-height: 200px;
+  }
+}
 
 .text_section {
   width: fit-content;
-    margin: 15% auto 25% auto;
-    padding: 0 10px;
-   
-    @media screen and (min-width: 768px){
-        margin: 10% auto 12% auto;
-    }  
+  margin: 15% auto 25% auto;
+  padding: 0 10px;
 
-    @media screen and (min-width: 1200px){
-        margin: 120px auto;
-    }  
+  @media screen and (min-width: 768px) {
+    margin: 10% auto 12% auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 120px auto;
+  }
 }
 
 .text {
-    display: block;
-    width: fit-content;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 50px;
-    text-align: center;
-    margin: 8px auto;
-    color: rgba(165, 212, 248, 0.3);
+  display: block;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 50px;
+  text-align: center;
+  margin: 8px auto;
+  color: rgba(165, 212, 248, 0.3);
 
+  text-shadow: -1px -1px 1px #efede3, 0px 5px 0 #262626, 0px 6px 0 #242424,
+    0px 5px 0 #1c1c1c, 0px 6px 0 #1a1a1a, 0px 6px 0 #181818, 0px 5px 0 #121212,
+    2px 6px 5px rgba(0, 0, 0, 0.9), 5px 13px 5px rgba(0, 0, 0, 0.3),
+    8px 7px 8px rgba(0, 0, 0, 0.5), 8px 8px 35px rgba(0, 0, 0, 0.9);
 
+  @media screen and (min-width: 768px) {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    line-height: 70px;
+  }
 
-text-shadow: 
-     -1px -1px 1px #efede3, 
-     0px 5px 0 #262626, 
-     0px 6px 0 #242424, 
-     0px 5px 0 #1c1c1c, 
-     0px 6px 0 #1a1a1a, 
-     0px 6px 0 #181818, 
-     0px 5px 0 #121212,
-     2px 6px 5px rgba(0, 0, 0, 0.9),
-     5px 13px 5px rgba(0, 0, 0, 0.3),
-     8px 7px 8px rgba(0, 0, 0, 0.5),
-     8px 8px 35px rgba(0, 0, 0, 0.9);
-
-     @media screen and (min-width:768px) {
-        font-size: 22px;
-        font-weight: 700;
-        letter-spacing: .15em;
-        line-height: 70px;
-    }       
-
-    @media screen and (min-width:1200px) {
-        font-size: 24px;
-        line-height: 100px;
-    }       
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: 100px;
+  }
 }
 
 .button {
-    display: block;
-    font-size: 20px;
-    width: fit-content;
-   font-weight: 500;
-    background-color: rgb(13, 148, 251);
-    color: aliceblue;
-    letter-spacing: .1em;
-    padding: 10px 25px;
-    margin: -55px auto 20px auto;
-    border-radius: 7px;
-    border: none;
-    border-width: 0;
-    cursor: pointer;
+  display: block;
+  font-size: 20px;
+  width: fit-content;
+  font-weight: 500;
+  background-color: rgb(13, 148, 251);
+  color: aliceblue;
+  letter-spacing: 0.1em;
+  padding: 10px 25px;
+  margin: -55px auto 20px auto;
+  border-radius: 7px;
+  border: none;
+  border-width: 0;
+  cursor: pointer;
 
-    @media screen and (min-width:768px){
-        font-size: 24px;
-        padding: 15px 35px;
-        margin: -70px auto 50px auto;
-    }
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    padding: 15px 35px;
+    margin: -70px auto 50px auto;
+  }
 
-    @media screen and (min-width:1200px){
-        font-size: 24px;
-        padding: 15px 35px;
-        margin: -150px auto 120px auto;
-    }
-
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    padding: 15px 35px;
+    margin: -150px auto 120px auto;
+  }
 }

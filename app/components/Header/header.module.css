@@ -4,33 +4,28 @@
 
 .container {
   display: grid;
-  margin:0 auto ;
+  margin: 0 auto;
   justify-content: center;
-  @media screen and (min-width:767px) {
-     display: flex;
+  @media screen and (min-width: 767px) {
+    display: flex;
   }
 
-  @media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
+    width: calc(100%);
     max-width: 1400px;
   }
 }
 
 .navigation {
-padding-bottom: 15px;
+  padding-bottom: 15px;
 
-@media screen and (min-width: 768px) {
-  padding-bottom: 0;
-  display: flex;
-  margin: 0 15px 0 auto;
-   justify-content: flex-end;
-   align-items: center;
-}
-  /* @media screen and (min-width:1200px) {
+  @media screen and (min-width: 768px) {
+    padding-bottom: 0;
     display: flex;
     margin: 0 15px 0 auto;
-     justify-content: flex-end;
-     align-items: center;
-  } */
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
 
 .navigation a {
@@ -47,15 +42,13 @@ padding-bottom: 15px;
   }
 }
 
-
 .link_text {
- display: block;
+  display: block;
   font-size: 22px;
   font-weight: 500;
   color: aliceblue;
-    @media screen and (min-width: 1200px){
-    
-  } 
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .active .link_text {
@@ -66,18 +59,14 @@ padding-bottom: 15px;
   display: flex;
   min-width: 300px;
   width: calc(100% / 2);
-    margin: 0 auto;
-    justify-content: center;
-    
-    @media screen and (min-width: 768px){
-        margin-left: 15px;
-        justify-content: flex-start;
-        width: fit-content;
-    }
+  margin: 0 auto;
+  justify-content: center;
 
-     /* @media screen and (min-width: 1200px){
-      margin-left: 15px;
-    } */
+  @media screen and (min-width: 768px) {
+    margin-left: 15px;
+    justify-content: flex-start;
+    width: fit-content;
+  }
 }
 
 .logo_text {
@@ -87,5 +76,5 @@ padding-bottom: 15px;
   color: aliceblue;
   text-align: center;
   margin: auto 15px auto -20px;
-  letter-spacing: .15em;
-} 
+  letter-spacing: 0.15em;
+}

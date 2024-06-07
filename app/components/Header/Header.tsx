@@ -1,17 +1,13 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-
 import Link from "next/link";
-import styles from "./header.module.css";
-
 import Logo from "../Logo/Logo";
 
-
+import styles from "./header.module.css";
 
 export default function Header() {
   const pahtname = usePathname();
-  // const el = getData(id);
 
   return (
     <header className={styles.section}>
@@ -26,7 +22,7 @@ export default function Header() {
           </Link>
           <Link
             href="/portfolio"
-            className={pahtname === "/portfolio"  ? styles.active : ""}
+            className={pahtname === "/portfolio" ? styles.active : ""}
           >
             <p className={styles.link_text}>Наші роботи</p>
           </Link>

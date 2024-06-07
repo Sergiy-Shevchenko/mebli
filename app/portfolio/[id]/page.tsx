@@ -2,7 +2,6 @@
 
 import Slide from "@/app/components/Swiper/Swiper";
 import Posts from "../portfol.json";
-import Image from "next/image";
 
 import styles from "./page.module.css";
 
@@ -27,12 +26,10 @@ export default function Card({ params: { id } }: Props) {
       <h4>{el?.title}</h4>
       <Slide slides={el?.images} />
       <span className={styles.text_containet}>
-      <p className={styles.material}>Матеріали: {el?.material}</p>
-      <p className={styles.furniture}>Фурнітура: {el?.furniture}</p>
-      <p className={styles.description}>Опис: {el?.description}</p>
-
+        <p className={styles.material}>Матеріали: {el?.material}</p>
+        <p className={styles.furniture}>Фурнітура: {el?.furniture}</p>
+        <p className={styles.description}>Опис: {el?.description}</p>
       </span>
-      
     </div>
   );
 }

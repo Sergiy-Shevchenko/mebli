@@ -1,17 +1,17 @@
 .logo {
   display: flex;
-     margin: 0 -20px 0 15px;
-    justify-content: center;
-    
-    @media screen and (min-width: 768px){
-        margin-left: 15px;
-        justify-content: flex-start;
-        width: fit-content;
-    }
+  margin: 0 -20px 0 15px;
+  justify-content: center;
 
-     @media screen and (min-width: 1200px){
-      margin-left: 15px;
-    }
+  @media screen and (min-width: 768px) {
+    margin-left: 15px;
+    justify-content: flex-start;
+    width: fit-content;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 15px;
+  }
 }
 
 .icon_out {

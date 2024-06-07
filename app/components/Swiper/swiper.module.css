@@ -1,35 +1,29 @@
-
-
 .swiper {
-    justify-content: center;
+  justify-content: center;
 }
 
 .swiper-wrapper {
- justify-content: center;
-
+  justify-content: center;
 }
 
 .swiper-slide {
- display: grid;
-    height: unset;
-    justify-content: center;
+  display: grid;
+  height: unset;
+  justify-content: center;
 }
 
-
-
 .img {
-    display: block;
+  display: block;
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
     width: 75%;
     height: 100%;
-    margin: 0 auto;
-
-    @media screen and (min-width: 768px) {
-        width: 75%;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 50%;
     height: 100%;
-    }
-    @media screen and (min-width:1200px) {
-        width: 50%;
-    height: 100%;
-    }
-    
+  }
 }
